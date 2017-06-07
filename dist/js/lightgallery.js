@@ -194,7 +194,7 @@
         } else {
 
             // Using different namespace for click because click event should not unbind if selector is same object('this')
-            _this.$items.on('click.lgcustom', function(event) {
+            _this.$items.find('img').on('click.lgcustom', function(event) {
 
                 // For IE8
                 try {
